@@ -1,0 +1,22 @@
+# Binaries
+/walljack
+/walljack.exe
+/dist/
+*.exe
+*.test
+*.out
+
+# Go workspace / vendor
+/vendor/
+go.work
+go.work.sum
+
+# Editor / OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Capture files
+*.pcap
+*.pcapng
