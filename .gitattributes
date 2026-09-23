@@ -1,0 +1,6 @@
+# Keep line endings consistent regardless of who clones this on what OS.
+# Without it, Windows checkouts rewrite LF to CRLF, which is harmless for Go
+# but breaks YAML and shell scripts in CI.
+* text=auto eol=lf
+*.png binary
+*.exe binary
